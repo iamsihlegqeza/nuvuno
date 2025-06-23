@@ -17,14 +17,14 @@ const Logo = ({
           className
         )}
       >
-        nu
+        noxie
         <span
           className={cn(
             "text-shop_light_green group-hover:text-shop_dark_green hoverEffect",
             spanDesign
           )}
         >
-          vuno
+          ey
         </span>
       </h2>
     </Link>

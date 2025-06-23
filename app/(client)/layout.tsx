@@ -5,8 +5,8 @@ import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s - NuVuno online store",
-    default: "NuVuno online store",
+    template: "%s - NoxieEy online store",
+    default: "NoxieEy online store",
   },
   description: "NuVuno online store, Your one stop shop for all your needs",
 };

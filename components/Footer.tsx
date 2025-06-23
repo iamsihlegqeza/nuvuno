@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo />
             <SubText>
-              Discover curated furniture collections at Nuvuno, blending
+              Discover curated furniture collections at NoxieEy, blending
               style and comfort to elevate your living spaces.
             </SubText>
             <SocialMedia

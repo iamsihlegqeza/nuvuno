@@ -1,4 +1,3 @@
-
 import React from "react";
 import Title from "./Title";
 import Link from "next/link";
@@ -10,17 +9,17 @@ import { GitCompareArrows, Headset, ShieldCheck, Truck } from "lucide-react";
 const extraData = [
   {
     title: "Free Delivery",
-    description: "Free shipping over $100",
+    description: "Free shipping over R700",
     icon: <Truck size={45} />,
   },
   {
     title: "Free Return",
-    description: "Free shipping over $100",
+    description: "Free shipping over R700",
     icon: <GitCompareArrows size={45} />,
   },
   {
     title: "Customer Support",
-    description: "Friendly 27/7 customer support",
+    description: "Friendly 24/7 customer support",
     icon: <Headset size={45} />,
   },
   {

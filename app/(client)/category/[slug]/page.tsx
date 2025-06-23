@@ -1,4 +1,3 @@
-
 import CategoryProducts from "@/components/CategoryProducts";
 import Container from "@/components/Container";
 import Title from "@/components/Title";
