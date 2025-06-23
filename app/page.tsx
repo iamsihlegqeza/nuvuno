@@ -1,13 +1,25 @@
-import Container from '@/components/Container'
-import React from 'react'
+import Container from "@/components/Container";
+import HomeBanner from "@/components/HomeBanner";
+import HomeCategories from "@/components/HomeCategories";
+import LatestBlog from "@/components/LatestBlog";
+import ProductGrid from "@/components/ProductGrid";
+import ShopByBrands from "@/components/ShopByBrands";
+import { getCategories } from "@/sanity/queries";
 
-const Home = () => {
+import React from "react";
+
+const Home = async () => {
+  const categories = await getCategories(6);
+
   return (
-    <Container className='p-10 bg-shop_light_pink'>
-      <h2 className='text-xl font-semibold'>Home page</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus aliquam repudiandae quisquam ut quaerat, fugiat, laborum quam hic explicabo facere repellendus fugit in maxime sit facilis architecto quo beatae quod pariatur quia unde aut. Id, placeat iure beatae illo voluptates labore aliquam, saepe iste, reiciendis obcaecati veniam dolorum nulla molestiae.</p>
+    <Container className="bg-shop-light-pink">
+      <HomeBanner />
+      <ProductGrid />
+      <HomeCategories categories={categories} />
+      <ShopByBrands />
+      <LatestBlog />
     </Container>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

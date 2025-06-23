@@ -10,6 +10,8 @@ import MobileMenu from "./MobileMenu";
 import Link from "next/link";
 import { Logs } from "lucide-react";
 import { getMyOrders } from "@/sanity/queries";
+import { auth, currentUser } from "@clerk/nextjs/server";
+import { ClerkLoaded, SignedIn } from "@clerk/nextjs";
 
 const Header = async () => {
   const user = await currentUser();
