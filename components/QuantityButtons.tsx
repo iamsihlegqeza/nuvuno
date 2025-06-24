@@ -1,4 +1,3 @@
-
 import { Product } from "@/sanity.types";
 import useStore from "@/store";
 import React from "react";
