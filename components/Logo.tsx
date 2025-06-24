@@ -24,7 +24,7 @@ const Logo = ({
             spanDesign
           )}
         >
-          ey
+          trends
         </span>
       </h2>
     </Link>
